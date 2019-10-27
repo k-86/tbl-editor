@@ -1,6 +1,6 @@
 # TBL Editor
 
-このブラウザアプリは、[駅.Locky](http://eki.locky.jp/)、[時刻表.Locky](http://tt.locky.jp/)で利用されている、
+この[ブラウザアプリ](https://k-86.github.io/tbl-editor/)は、[駅.Locky](http://eki.locky.jp/)、[時刻表.Locky](http://tt.locky.jp/)で利用されている、
 NextTrain形式という時刻表記述フォーマットに基づいて作成された、拡張子TBLの時刻表データファイルの編集・表示アプリです。
 
 NextTrain形式については[NextTrain on the Web](http://office.toyolab.com/nexttrain/)をご覧ください。

@@ -4,9 +4,11 @@
   "private": true,
   "author": "k-86",
   "license": "MIT",
+  "homepage": "https://k-86.github.io/tbl-editor/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
@@ -65,6 +67,7 @@
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.2.0",
     "eslint-plugin-react-redux": "^3.0.1",
+    "gh-pages": "^2.1.1",
     "prettier": "1.18.2",
     "redux-mock-store": "^1.5.3"
   }
