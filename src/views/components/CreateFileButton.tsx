@@ -9,7 +9,8 @@ import {
   DialogContent,
   DialogContentText,
   DialogTitle,
-  TextField
+  TextField,
+  Tooltip
 } from "@material-ui/core";
 import { Add } from "@material-ui/icons";
 import ProgressButton from "./ProgressButton";
@@ -81,15 +82,17 @@ const CreateFileButton: React.FC<StateProps & DispatchProps> = ({
 
   return (
     <>
-      <Fab
-        onClick={handleOpen}
-        aria-label="add"
-        color="primary"
-        size="small"
-        className={classes.fab}
-      >
-        <Add />
-      </Fab>
+      <Tooltip title="新規作成">
+        <Fab
+          onClick={handleOpen}
+          aria-label="add"
+          color="primary"
+          size="small"
+          className={classes.fab}
+        >
+          <Add />
+        </Fab>
+      </Tooltip>
       <Dialog open={open} onClose={handleClose} aria-labelledby="dialog-rename">
         <DialogTitle id="dialog-rename">ファイルの作成</DialogTitle>
         <form

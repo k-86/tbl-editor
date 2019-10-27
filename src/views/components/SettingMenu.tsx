@@ -7,7 +7,8 @@ import {
   DialogContentText,
   DialogTitle,
   Grid,
-  IconButton
+  IconButton,
+  Tooltip
 } from "@material-ui/core";
 import { Settings } from "@material-ui/icons";
 import AppGridStyle from "../containers/AppGridStyle";
@@ -28,9 +29,11 @@ const SettingMenu: React.FC = (): ReactElement => {
 
   return (
     <>
-      <IconButton onClick={handleClickOpen}>
-        <Settings fontSize="small" />
-      </IconButton>
+      <Tooltip title="設定">
+        <IconButton onClick={handleClickOpen}>
+          <Settings fontSize="small" />
+        </IconButton>
+      </Tooltip>
       <Dialog
         maxWidth="xs"
         open={open}
