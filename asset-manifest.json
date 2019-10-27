@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tbl-editor/static/css/main.0c0e79a1.chunk.css",
+    "main.js": "/tbl-editor/static/js/main.917a0657.chunk.js",
+    "main.js.map": "/tbl-editor/static/js/main.917a0657.chunk.js.map",
+    "runtime-main.js": "/tbl-editor/static/js/runtime-main.73f5b280.js",
+    "runtime-main.js.map": "/tbl-editor/static/js/runtime-main.73f5b280.js.map",
+    "static/js/2.c309d953.chunk.js": "/tbl-editor/static/js/2.c309d953.chunk.js",
+    "static/js/2.c309d953.chunk.js.map": "/tbl-editor/static/js/2.c309d953.chunk.js.map",
+    "index.html": "/tbl-editor/index.html",
+    "precache-manifest.77e04cc6e848a98e34130bf58cb74b58.js": "/tbl-editor/precache-manifest.77e04cc6e848a98e34130bf58cb74b58.js",
+    "service-worker.js": "/tbl-editor/service-worker.js",
+    "static/css/main.0c0e79a1.chunk.css.map": "/tbl-editor/static/css/main.0c0e79a1.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73f5b280.js",
+    "static/js/2.c309d953.chunk.js",
+    "static/css/main.0c0e79a1.chunk.css",
+    "static/js/main.917a0657.chunk.js"
+  ]
+}
