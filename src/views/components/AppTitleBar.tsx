@@ -1,6 +1,13 @@
 import React, { ReactChild, ReactElement } from "react";
 import { createStyles, makeStyles } from "@material-ui/core/styles";
-import { AppBar, Toolbar, Typography } from "@material-ui/core";
+import {
+  AppBar,
+  IconButton,
+  Toolbar,
+  Tooltip,
+  Typography
+} from "@material-ui/core";
+import { GitHub } from "@material-ui/icons";
 import SettingMenu from "./SettingMenu";
 import TimeTableSelector from "../containers/TimeTableSelector";
 import CreateFileButton from "../containers/CreateFileButton";
@@ -69,9 +76,24 @@ const AppTitleBar: React.FC<StateProps> = ({ editFileName }): ReactElement => {
 
           <CreateFileButton />
           <SettingMenu />
+          <GitHubRepoButton />
         </Toolbar>
       </AppBar>
     </div>
+  );
+};
+
+const GitHubRepoButton: React.FC = (): ReactElement => {
+  return (
+    <Tooltip title="GitHub repository">
+      <IconButton
+        aria-label="github-repo"
+        href="https://github.com/k-86/tbl-editor"
+        target="_blank"
+      >
+        <GitHub />
+      </IconButton>
+    </Tooltip>
   );
 };
 
