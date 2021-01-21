@@ -43,7 +43,7 @@
     "@types/uuid": "^3.4.5",
     "encoding-japanese": "^1.0.30",
     "file-saver": "^2.0.2",
-    "immer": "^4.0.2",
+    "immer": "^8.0.1",
     "lodash": "^4.17.15",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
